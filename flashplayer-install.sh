@@ -14,7 +14,7 @@ esac
 
 download_dir=${download_dir:-`mktemp -d ${MKTEMP_OPTS} flashplayer-download-XXXXXX`}
 unpack_dir=${unpack_dir:-`mktemp -d ${MKTEMP_OPTS} flashplayer-unpack-XXXXXX`}
-orig_dir=${unpack_dir}/install_flash_player_linux_sa
+orig_dir=${unpack_dir}
 dest_dir=${1}
 
 flashplayer_download ${download_dir}
